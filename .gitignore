@@ -1,0 +1,16 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+coverage/
+
+# Runtime world snapshots and local secrets
+.local/
+.env
+.env.*
+!.env.example
+
+# Local tooling / operating system files
+.vscode/
+.idea/
+.DS_Store
+npm-debug.log*
